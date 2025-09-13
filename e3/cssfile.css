@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(221, 224, 255);
+    font-family: Arial, sans-serif;
+}
+
+h1{
+     font-size: 30px;
+     color: rgb(2, 158, 111);
+     text-align: center;
+ }
+ 
+strong, b {
+  font-weight: bold;
+}
+
+ a:link{
+ color: red;
+ text-decoration: underline;
+ }
+
+ a:hover {
+ color: rgb(83, 53, 255); 
+ text-decoration: underline;
+ cursor: pointer; 
+}
+
