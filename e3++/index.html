@@ -7,18 +7,26 @@
     <style>
 
     @keyframes eye{
-    0% {transform: translate(1px, 1px) rotate(0deg);}
-    50% {transform: translate(-1px, 2px) rotate(-1deg);}
-    100% {transform: translate(1px, -2px) rotate(-1deg);}
+    0% {transform: translate(2px, 2px) rotate(0deg);}
+    5%{transform: translate(0px, 0px) rotate(0deg); }
+    10% {transform: translate(-5px, -5px) rotate(1deg);}
+    20% {transform: translate(5px, -5px) rotate(0deg);}
+    30% {transform: translate(-5px, 5px) rotate(-1deg);}
+    50% {transform: translate(-2px, 2px) rotate(-1deg);}
+    70% {transform: translate(0px, 0px) rotate(0deg);}
+    80% {transform: translate(2px, -2px) rotate(1deg);}
+    100% {transform: translate(2px, -2px) rotate(-1deg);}
     }
 
+
+
        .rec3 {
-         width: 50%; 
+         width: 55%; 
         height: 150px; 
         background-color:rgb(171, 3, 3);
         position:absolute;
         top: 300px;
-        left: 55%; 
+        left: 56%; 
         z-index: 2;
 
         animation:rec3 3.5s linear 
@@ -27,7 +35,7 @@
 
 
       .rec1 {
-        width: 49.9%; 
+        width: 50.5%; 
         height: 150px; 
         background-color:rgb(171, 3, 3);
         position:absolute;
