@@ -8,6 +8,9 @@ for (let i=0; i<100; i++){
     let x=Math.random() * container.clientWidth;
     let y=Math.random() * container.clientHeight;
 
+    const o = Math.random()*100-30;
+    drop.style.backgroundColor = `rgba(19,0,77, ${o}%)`
+
     function move(){
      y++;
 
