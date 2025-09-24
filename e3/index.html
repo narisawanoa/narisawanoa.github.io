@@ -9,9 +9,33 @@
         animation: bounce 1s infinite ease-in-out;
       }
 
+    pages{
+       display: inline-block;
+       animation: square 5s infinite ease-out;
+    }
+
       @keyframes bounce {
         0%, 100% { transform: translateY(0); }
         50% { transform: translateY(-10px); }
+      }
+
+      @keyframes square{
+        0%, 100% {transform: translate(0px, 0px);}
+        10%{transform: translate(0px,-400px);}
+        40%{transform: translate(95vw, -400px);}
+        60%{transform:translate(95vw,50vh);}
+        90%{transform:translate(0px,50vh);}
+      }
+
+      body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 90vh;
+      }
+
+      p{
+        color:rgb(0, 0, 62)
       }
 
     </style>
@@ -27,7 +51,7 @@
     </h1>
 
     <p>
-      pages made and maintained by individuals rather than by businesses or corporations;
+      <pages>pages</pages> made and maintained by individuals rather than by businesses or corporations;
     </p>
 
     <p>
