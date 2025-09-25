@@ -2,6 +2,34 @@
 <html lang="en-US">
   <head>
     <link rel="stylesheet" href="/e3/cssfile.css?v=1">
+    <style>
+
+      h1{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        animation: h1 10s infinite ease-in-out;
+      }
+
+      @keyframes h1{
+      0%, 100%{transform: translate(0vw,0vh) rotate(0deg);}
+      30% {transform: translate(10vw,50vh) rotate(360deg);}
+      50% {transform: translate(-10vw,10vh) rotate(-360deg);}
+      80%{transform: translate(20vw,-30vh) rotate(360deg);}
+      }
+
+      @keyframes a{
+      0%, 100%{transform: translate(0%,0) rotate(0deg);}
+      50% {transform: translate(90vw,-80vh) rotate(-360deg);}
+      }
+
+      a{
+        position:absolute;
+        color:white;
+        animation:a 10s infinite;
+      }
+
+    </style>
    
     <title>E3</title>
     </head>
