@@ -1,6 +1,6 @@
 const container = document.getElementById("rain");
 
-for (let i=0; i<100; i++){
+for (let i=0; i<150; i++){
     const drop = document.createElement("div");
     drop.classList.add("p1");
     container.appendChild(drop);
